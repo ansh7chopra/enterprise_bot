@@ -1,0 +1,28 @@
+[project]
+name = "enterprise-bot"
+version = "0.1.0"
+description = "Enterprise AI assistant with multi-agent capabilities"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "groq>=0.29.0",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.27",
+    "langchain-core>=0.1.44",
+    "langchainhub",
+    "pandas>=2.3.0",
+    "python-dotenv>=1.1.1",
+    "openpyxl",
+    "unstructured",
+    "python-docx",
+    "tiktoken",
+    "ollama",
+    "streamlit",
+    "langchain-groq",
+    "langchain-huggingface",  
+    "langchain-pinecone",       
+    "pinecone-client", 
+    "anthropic>=0.22",
+    "langchain-anthropic>=0.1.6",
+]
