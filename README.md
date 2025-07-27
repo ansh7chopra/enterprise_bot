@@ -14,14 +14,23 @@ A smart, modular AI assistant built to help employees in an enterprise setting. 
 
 enterprise_bot/
 ├── .venv/ # Virtual environment (excluded from Git)
+
 ├── agents/ # Agent definitions and LLM tool setup
+
 │ └── meeting_agent.py
+
 ├── utils/ # Utilities like RAG setup and document processing
+
 │ └── rag_search.py
+
 ├── vector_store/ # Precomputed vector index for company data
+
 ├── streamlit_app.py # Main UI entry point
+
 ├── requirements.txt # If using pip
+
 ├── pyproject.toml # If using uv or poetry
+
 └── README.md # This file
 
 
